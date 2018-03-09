@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System;
-using System.ComponentModel;
+using System.Collections.Generic;
 using System.Net.Sockets;
 using System.IO;
-using UnityEditor.VersionControl;
 using UnityEngine.UI;
 
 public class TwitchChat : MonoBehaviour
@@ -15,7 +12,15 @@ public class TwitchChat : MonoBehaviour
 	private StreamWriter _writer;
 
 	public string username, oauth, channelName;
-	public Text chatBox;
+
+	public class MsgEvent : UnityEngine.Events.UnityEvent<string> { }
+	public MsgEvent messageRecievedEvent = new MsgEvent();
+
+	private string str = string.Empty;
+	private bool stopThreads = false;
+	private Queue<string> commandQueue = new Queue<string>();
+	private List<string> recievedMsgs = new List<string>();
+	private System.Threading.Thread inProc;
 
 	// Use this for initialization
 	void Start () {
@@ -23,12 +28,22 @@ public class TwitchChat : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (!_twitchClient.Connected)
-		{
+	void Update()
+	{
+		if (_twitchClient == null || !_twitchClient.Connected)
 			Connect();
+		else
+			lock (recievedMsgs)
+			{
+				if (recievedMsgs.Count > 0)
+				{
+					for (int i = 0; i < recievedMsgs.Count; i++)
+					{
+						messageRecievedEvent.Invoke(recievedMsgs[i]);
+					}
+					recievedMsgs.Clear();
+			}
 		}
-		ReadChat();
 	}
 
 	private void Connect()
@@ -42,8 +57,42 @@ public class TwitchChat : MonoBehaviour
 		_writer.WriteLine("USER " + username + " 8 * :" + username);
 		_writer.WriteLine("JOIN #" + channelName);
 		_writer.Flush();
+
+		inProc = new System.Threading.Thread(GetIRCInput);
+		inProc.Start();
 	}
 
+	private void GetIRCInput()
+	{
+		while (!stopThreads)
+		{
+			if (!_twitchClient.GetStream().DataAvailable)
+				continue ;
+			
+			str = _reader.ReadLine();
+			
+			if (!str.Contains("PRIVMSG #")) continue;
+			lock (recievedMsgs)
+				recievedMsgs.Add(str);
+		}
+	}
+
+	void OnEnable()
+	{
+		stopThreads = false;
+	}
+
+	void OnDisable()
+	{
+		stopThreads = true;
+	}
+
+	void OnDestroy()
+	{
+		stopThreads = true;
+	}
+
+/*
 	private void ReadChat()
 	{
 		if (_twitchClient.Available > 0)
@@ -66,4 +115,5 @@ public class TwitchChat : MonoBehaviour
 			print(msg);
 		}
 	}
+*/
 }

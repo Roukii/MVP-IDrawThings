@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 public class TwitchIRC : MonoBehaviour
@@ -19,6 +18,7 @@ public class TwitchIRC : MonoBehaviour
     private Queue<string> commandQueue = new Queue<string>();
     private List<string> recievedMsgs = new List<string>();
     private System.Threading.Thread inProc, outProc;
+    
     private void StartIRC()
     {
         System.Net.Sockets.TcpClient sock = new System.Net.Sockets.TcpClient();
@@ -44,6 +44,7 @@ public class TwitchIRC : MonoBehaviour
         inProc = new System.Threading.Thread(() => IRCInputProcedure(input, networkStream));
         inProc.Start();
     }
+    
     private void IRCInputProcedure(System.IO.TextReader input, System.Net.Sockets.NetworkStream networkStream)
     {
         while (!stopThreads)
@@ -75,6 +76,7 @@ public class TwitchIRC : MonoBehaviour
             }
         }
     }
+    
     private void IRCOutputProcedure(System.IO.TextWriter output)
     {
         System.Diagnostics.Stopwatch stopWatch = new System.Diagnostics.Stopwatch();
@@ -141,6 +143,7 @@ public class TwitchIRC : MonoBehaviour
         //print("inProc:" + inProc.IsAlive.ToString());
         //print("outProc:" + outProc.IsAlive.ToString());
     }
+    
     void Update()
     {
         lock (recievedMsgs)
