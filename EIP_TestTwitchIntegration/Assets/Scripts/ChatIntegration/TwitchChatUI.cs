@@ -53,6 +53,8 @@ public class TwitchChatUI : MonoBehaviour
 		text.text = "<color=" + nameColor + "><b>" + chatName + "</b></color>" + ": " + msg;
 		text.color = Color.black;
 		text.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
+		
+		print("Debug msg : " + msg);
 	}
 
 	Color ColorFromUsername(string username)
