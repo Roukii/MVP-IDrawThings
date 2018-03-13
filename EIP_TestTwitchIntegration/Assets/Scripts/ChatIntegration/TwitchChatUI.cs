@@ -10,7 +10,7 @@ public class TwitchChatUI : MonoBehaviour
 {
 
 	public Image canvas;
-	private int max = 100;
+	private int max = 20;
 	private TwitchChat IRC;
 	private LinkedList<GameObject> messages =
 		new LinkedList<GameObject>();
@@ -22,8 +22,9 @@ public class TwitchChatUI : MonoBehaviour
 	
 	void OnMsgRecieved(string msg)
 	{
-		if (messages.Count > max)
+		if (messages.Count >= max)
 		{
+			print("Debug msg : " + msg);
 			Destroy(messages.First.Value);
 			messages.RemoveFirst();
 		}
@@ -52,9 +53,7 @@ public class TwitchChatUI : MonoBehaviour
 		// Set text
 		text.text = "<color=" + nameColor + "><b>" + chatName + "</b></color>" + ": " + msg;
 		text.color = Color.black;
-		text.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
-		
-		print("Debug msg : " + msg);
+		text.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;		
 	}
 
 	Color ColorFromUsername(string username)
@@ -63,3 +62,4 @@ public class TwitchChatUI : MonoBehaviour
 		return new Color(Random.Range(0.25f, 0.55f), Random.Range(0.20f, 0.55f), Random.Range(0.25f, 0.55f));
 	}
 }
+    
