@@ -38,15 +38,11 @@
       <file leaf-file-name="TwitchChatUI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="391">
+              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding>
-                <marker date="1520871631428" expanded="false" signature="6:149" ph="..." />
-                <marker date="1520871631428" expanded="true" signature="231:1858" ph="{...}" />
-                <marker date="1520871631428" expanded="true" signature="397:492" ph="{...}" />
-                <marker date="1520871631428" expanded="true" signature="526:1624" ph="{...}" />
-                <marker date="1520871631428" expanded="true" signature="557:626" ph="{...}" />
-                <marker date="1520871631428" expanded="true" signature="1667:1856" ph="{...}" />
+                <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
+                <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -99,7 +95,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -175,12 +171,12 @@
       <workItem from="1520866612649" duration="919000" />
       <workItem from="1520872261648" duration="623000" />
       <workItem from="1521041292984" duration="1809000" />
-      <workItem from="1521113620189" duration="815000" />
+      <workItem from="1521113620189" duration="1412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22342000" />
+    <option name="totallyTimeSpent" value="22939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,7 +188,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -256,12 +252,8 @@
         <state relative-caret-position="374">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <marker date="1520871631428" expanded="false" signature="6:149" ph="..." />
-            <marker date="1520871631428" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="397:492" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="526:1624" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="557:626" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -306,12 +298,8 @@
         <state relative-caret-position="374">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <marker date="1520871631428" expanded="false" signature="6:149" ph="..." />
-            <marker date="1520871631428" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="397:492" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="526:1624" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="557:626" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -343,12 +331,8 @@
         <state relative-caret-position="952">
           <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
-            <marker date="1520871631428" expanded="false" signature="6:149" ph="..." />
-            <marker date="1520871631428" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="397:492" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="526:1624" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="557:626" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -381,12 +365,8 @@
         <state relative-caret-position="1134">
           <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
           <folding>
-            <marker date="1520871631428" expanded="false" signature="6:149" ph="..." />
-            <marker date="1520871631428" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="397:492" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="526:1624" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="557:626" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -483,15 +463,11 @@
     <entry file="file://$PROJECT_DIR$/Assets/ChangeScreen.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="391">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <marker date="1520871631428" expanded="false" signature="6:149" ph="..." />
-            <marker date="1520871631428" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="397:492" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="526:1624" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="557:626" ph="{...}" />
-            <marker date="1520871631428" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
           </folding>
         </state>
       </provider>
