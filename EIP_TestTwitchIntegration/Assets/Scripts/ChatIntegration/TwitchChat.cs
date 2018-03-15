@@ -11,8 +11,8 @@ public class TwitchChat : MonoBehaviour
 	private StreamReader _reader;
 	private StreamWriter _writer;
 
-	public string username, oauth, channelName;
-
+	//public string username, oauth, channelName;
+	public Text username, oauth, channelName;
 	public class MsgEvent : UnityEngine.Events.UnityEvent<string> { }
 	public MsgEvent messageRecievedEvent = new MsgEvent();
 
@@ -24,6 +24,9 @@ public class TwitchChat : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
+		Debug.Log("Start twitch chat");
+
+		Debug.Log(username.text + " " + oauth.text + " " + channelName.text);
 		Connect();
 	}
 	
@@ -52,10 +55,10 @@ public class TwitchChat : MonoBehaviour
 		_reader = new StreamReader(_twitchClient.GetStream());
 		_writer = new StreamWriter(_twitchClient.GetStream());
 		
-		_writer.WriteLine("PASS " + oauth);
-		_writer.WriteLine("NICK " + username);
-		_writer.WriteLine("USER " + username + " 8 * :" + username);
-		_writer.WriteLine("JOIN #" + channelName);
+		_writer.WriteLine("PASS " + oauth.text);
+		_writer.WriteLine("NICK " + username.text);
+		_writer.WriteLine("USER " + username.text + " 8 * :" + username.text);
+		_writer.WriteLine("JOIN #" + channelName.text);
 		_writer.Flush();
 
 		inProc = new System.Threading.Thread(GetIRCInput);
