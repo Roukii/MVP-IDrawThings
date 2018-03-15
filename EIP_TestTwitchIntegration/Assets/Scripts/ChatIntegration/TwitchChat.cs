@@ -26,7 +26,7 @@ public class TwitchChat : MonoBehaviour
 	void Start () {
 		Debug.Log("Start twitch chat");
 
-		Debug.Log(username.text + " " + oauth.text + " " + channelName.text);
+		Debug.Log("here : " + username.text + " " + oauth.text + " " + channelName.text);
 		Connect();
 	}
 	

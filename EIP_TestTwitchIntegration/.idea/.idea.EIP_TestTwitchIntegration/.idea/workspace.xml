@@ -11,26 +11,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TwitchChat.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwitchChat.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
-                <marker date="1521114433631" expanded="false" signature="6:131" ph="..." />
-                <marker date="1521114433631" expanded="true" signature="172:2807" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="762:886" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="939:1241" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="1080:1234" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="1136:1202" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="1266:1753" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="1782:2015" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="1808:2012" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="2033:2062" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="2081:2109" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="2128:2156" ph="{...}" />
-                <marker date="1521114433631" expanded="true" signature="2158:2805" ph="/* private void ReadChat() ... */" />
+                <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
+                <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
+                <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scene_001.unity" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scene_001.unity">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="1284" column="21" lean-forward="false" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,21 +48,25 @@
       <file leaf-file-name="TwitchChatUI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="816">
+              <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
               <folding>
                 <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-                <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
+                <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
+                <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
+                <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
+                <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
+                <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeScreen.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChangeScreen.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <marker date="1521114050399" expanded="false" signature="6:110" ph="..." />
                 <marker date="1521114050399" expanded="true" signature="175:593" ph="{...}" />
@@ -69,6 +83,7 @@
     <findStrings>
       <find>messageRe</find>
       <find>inputField</find>
+      <find>HEAD</find>
     </findStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -85,6 +100,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/scene_001.unity" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs" />
       </list>
     </option>
@@ -95,7 +111,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -171,12 +187,12 @@
       <workItem from="1520866612649" duration="919000" />
       <workItem from="1520872261648" duration="623000" />
       <workItem from="1521041292984" duration="1809000" />
-      <workItem from="1521113620189" duration="1412000" />
+      <workItem from="1521113620189" duration="2400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22939000" />
+    <option name="totallyTimeSpent" value="23927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,7 +204,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -230,19 +246,19 @@
         <state relative-caret-position="34">
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <marker date="1521114433631" expanded="false" signature="6:131" ph="..." />
-            <marker date="1521114433631" expanded="true" signature="172:2807" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="762:886" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="939:1241" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1080:1234" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1136:1202" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1266:1753" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1782:2015" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1808:2012" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2033:2062" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2081:2109" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2128:2156" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2158:2805" ph="/* private void ReadChat() ... */" />
+            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
+            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -253,7 +269,11 @@
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
             <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -276,19 +296,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521114433631" expanded="false" signature="6:131" ph="..." />
-            <marker date="1521114433631" expanded="true" signature="172:2807" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="762:886" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="939:1241" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1080:1234" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1136:1202" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1266:1753" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1782:2015" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1808:2012" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2033:2062" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2081:2109" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2128:2156" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2158:2805" ph="/* private void ReadChat() ... */" />
+            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
+            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -299,7 +319,11 @@
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
             <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -309,19 +333,19 @@
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1521114433631" expanded="false" signature="6:131" ph="..." />
-            <marker date="1521114433631" expanded="true" signature="172:2807" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="762:886" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="939:1241" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1080:1234" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1136:1202" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1266:1753" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1782:2015" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1808:2012" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2033:2062" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2081:2109" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2128:2156" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2158:2805" ph="/* private void ReadChat() ... */" />
+            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
+            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -332,7 +356,11 @@
           <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
             <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -342,19 +370,19 @@
         <state relative-caret-position="399">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1521114433631" expanded="false" signature="6:131" ph="..." />
-            <marker date="1521114433631" expanded="true" signature="172:2807" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="762:886" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="939:1241" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1080:1234" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1136:1202" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1266:1753" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1782:2015" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1808:2012" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2033:2062" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2081:2109" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2128:2156" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2158:2805" ph="/* private void ReadChat() ... */" />
+            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
+            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -366,7 +394,11 @@
           <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
           <folding>
             <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -391,19 +423,19 @@
         <state relative-caret-position="1365">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <marker date="1521114433631" expanded="false" signature="6:131" ph="..." />
-            <marker date="1521114433631" expanded="true" signature="172:2807" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="762:886" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="939:1241" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1080:1234" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1136:1202" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1266:1753" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1782:2015" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1808:2012" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2033:2062" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2081:2109" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2128:2156" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2158:2805" ph="/* private void ReadChat() ... */" />
+            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
+            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -461,48 +493,60 @@
     <entry file="file://$USER_HOME$/Downloads/Chat/Assets/Chat.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/9e/c53200e6/Transform.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/ChangeScreen.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
+            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scene_001.unity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="1284" column="21" lean-forward="false" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="816">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
           <folding>
             <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:276" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="357">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <marker date="1521114050399" expanded="false" signature="6:110" ph="..." />
             <marker date="1521114050399" expanded="true" signature="175:593" ph="{...}" />
             <marker date="1521114050399" expanded="true" signature="289:411" ph="{...}" />
             <marker date="1521114050399" expanded="true" signature="468:591" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1521114433631" expanded="false" signature="6:131" ph="..." />
-            <marker date="1521114433631" expanded="true" signature="172:2807" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="762:886" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="939:1241" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1080:1234" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1136:1202" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1266:1753" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1782:2015" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="1808:2012" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2033:2062" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2081:2109" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2128:2156" ph="{...}" />
-            <marker date="1521114433631" expanded="true" signature="2158:2805" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
