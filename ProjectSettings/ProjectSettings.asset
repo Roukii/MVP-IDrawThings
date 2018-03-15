@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 2283a1c3734aa0e48be8345fc1e5c735
+  productGUID: cabfa80ccc94fa848b20411e0e1907c0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: IDrawThings
+  productName: EIP_TestTwitchIntegration
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -557,14 +557,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: IDrawThings
+  metroPackageName: EIP_TestTwitchIntegration
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: IDrawThings
+  metroApplicationDescription: EIP_TestTwitchIntegration
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -630,13 +630,12 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
-    Build: 1
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 47ba1613-4a06-404d-89c2-ee76dbc375ce
-  projectName: IDrawThings
-  organizationId: idrawthings
+  cloudProjectId: d9fc43bb-7c40-4f9c-95e6-a1644974f43e
+  projectName: EIP_TestTwitchIntegration
+  organizationId: sentrance1
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
