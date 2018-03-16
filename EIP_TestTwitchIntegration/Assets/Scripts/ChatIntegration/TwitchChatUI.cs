@@ -47,8 +47,8 @@ public class TwitchChatUI : MonoBehaviour
 		var layout = go.AddComponent<LayoutElement>();
 		go.transform.SetParent(canvas.transform);
 		messages.AddLast(go);
-		layout.minHeight = 20f;
-		layout.minWidth = 20f;
+		layout.minHeight = 7f;
+		layout.minWidth = 7f;
 
 		// Set text
 		text.text = "<color=" + nameColor + "><b>" + chatName + "</b></color>" + ": " + msg;

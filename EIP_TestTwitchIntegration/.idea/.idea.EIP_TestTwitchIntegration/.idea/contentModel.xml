@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\youss\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_EIP_TestTwitchIntegration.-1138083440.00" t="ExcludeRecursive" />
-    <e p="C:\Users\youss\Desktop\MVP-IDrawThings\EIP_TestTwitchIntegration" t="IncludeRecursive">
+    <e p="C:\Users\sfich\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_EIP_TestTwitchIntegration.2055851564.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sfich\Desktop\MVP-IDrawThings\EIP_TestTwitchIntegration" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -19,12 +19,21 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ChangePencilSize.cs" t="Include" />
+          <e p="ChangePenColor.cs" t="Include" />
           <e p="ChangeScreen.cs" t="Include" />
           <e p="ChatIntegration" t="Include">
             <e p="TwitchChat.cs" t="Include" />
             <e p="TwitchChatExample.cs" t="Include" />
             <e p="TwitchChatUI.cs" t="Include" />
           </e>
+          <e p="createSprite.cs" t="Include" />
+          <e p="Eraser.cs" t="Include" />
+          <e p="Line.cs" t="Include" />
+          <e p="LineCreator.cs" t="Include" />
+          <e p="PlayButtonScript.cs" t="Include" />
+          <e p="QuitButtonScript.cs" t="Include" />
+          <e p="VersionTextScript.cs" t="Include" />
         </e>
       </e>
       <e p="EIP_TestTwitchIntegration.sln" t="IncludeFlat" />

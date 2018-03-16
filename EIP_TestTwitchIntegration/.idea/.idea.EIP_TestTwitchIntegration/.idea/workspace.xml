@@ -14,64 +14,72 @@
       <file leaf-file-name="TwitchChat.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
-                <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
-                <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
-                <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+                <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+                <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+                <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scene_001.unity" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/scene_001.unity">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="1284" column="21" lean-forward="false" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwitchChatUI.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-              <folding>
-                <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-                <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
-                <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
-                <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
-                <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
-                <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeScreen.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChangeScreen.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
-                <marker date="1521114050399" expanded="false" signature="6:110" ph="..." />
-                <marker date="1521114050399" expanded="true" signature="175:593" ph="{...}" />
-                <marker date="1521114050399" expanded="true" signature="289:411" ph="{...}" />
-                <marker date="1521114050399" expanded="true" signature="468:591" ph="{...}" />
+                <marker date="1521129843482" expanded="false" signature="6:110" ph="..." />
+                <marker date="1521129843482" expanded="true" signature="175:691" ph="{...}" />
+                <marker date="1521129843482" expanded="true" signature="316:474" ph="{...}" />
+                <marker date="1521129843482" expanded="true" signature="531:689" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineCreator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LineCreator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+              <folding>
+                <marker date="1521122897730" expanded="false" signature="6:78" ph="..." />
+                <marker date="1521122897730" expanded="true" signature="120:1127" ph="{...}" />
+                <marker date="1521122897730" expanded="true" signature="307:368" ph="{...}" />
+                <marker date="1521122897730" expanded="true" signature="388:1125" ph="{...}" />
+                <marker date="1521122897730" expanded="true" signature="429:846" ph="{...}" />
+                <marker date="1521122897730" expanded="true" signature="886:937" ph="{...}" />
+                <marker date="1521122897730" expanded="true" signature="970:1119" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwitchChatUI.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <folding>
+                <marker date="1521132117856" expanded="false" signature="6:149" ph="..." />
+                <marker date="1521132117856" expanded="true" signature="231:1856" ph="{...}" />
+                <marker date="1521132117856" expanded="true" signature="396:491" ph="{...}" />
+                <marker date="1521132117856" expanded="true" signature="525:1622" ph="{...}" />
+                <marker date="1521132117856" expanded="true" signature="557:658" ph="{...}" />
+                <marker date="1521132117856" expanded="true" signature="1665:1854" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,21 +95,22 @@
     </findStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/API/IRC/TwitchIRC.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/API/IRC/TwitchIRC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LineCreator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatExample.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/scene_001.unity" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs" />
       </list>
     </option>
   </component>
@@ -132,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -145,7 +155,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,11 +197,12 @@
       <workItem from="1520872261648" duration="623000" />
       <workItem from="1521041292984" duration="1809000" />
       <workItem from="1521113620189" duration="2400000" />
+      <workItem from="1521125996484" duration="3987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23927000" />
+    <option name="totallyTimeSpent" value="27914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,23 +214,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -243,22 +252,67 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+            <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scene_001.unity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14399">
+          <caret line="847" column="0" lean-forward="true" selection-start-line="847" selection-start-column="0" selection-end-line="847" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <marker date="1521132117856" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521132117856" expanded="true" signature="231:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="525:1622" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="1665:1854" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
-            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+            <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+            <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -268,12 +322,12 @@
         <state relative-caret-position="374">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521132117856" expanded="true" signature="231:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="525:1622" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="1665:1854" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -283,10 +337,10 @@
         <state relative-caret-position="187">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
-            <marker date="1521114050399" expanded="false" signature="6:110" ph="..." />
-            <marker date="1521114050399" expanded="true" signature="175:593" ph="{...}" />
-            <marker date="1521114050399" expanded="true" signature="289:411" ph="{...}" />
-            <marker date="1521114050399" expanded="true" signature="468:591" ph="{...}" />
+            <marker date="1521129843482" expanded="false" signature="6:110" ph="..." />
+            <marker date="1521129843482" expanded="true" signature="175:691" ph="{...}" />
+            <marker date="1521129843482" expanded="true" signature="316:474" ph="{...}" />
+            <marker date="1521129843482" expanded="true" signature="531:689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -296,19 +350,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
-            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+            <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+            <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -318,12 +372,12 @@
         <state relative-caret-position="374">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521132117856" expanded="true" signature="231:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="525:1622" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="1665:1854" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -333,19 +387,19 @@
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
-            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+            <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+            <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -355,12 +409,12 @@
         <state relative-caret-position="952">
           <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
-            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521132117856" expanded="true" signature="231:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="525:1622" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="1665:1854" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -370,19 +424,19 @@
         <state relative-caret-position="399">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
-            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+            <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+            <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -393,12 +447,12 @@
         <state relative-caret-position="1134">
           <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
           <folding>
-            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521132117856" expanded="true" signature="231:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="525:1622" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="1665:1854" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -423,19 +477,19 @@
         <state relative-caret-position="1365">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
-            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+            <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+            <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
           </folding>
         </state>
       </provider>
@@ -493,60 +547,76 @@
     <entry file="file://$USER_HOME$/Downloads/Chat/Assets/Chat.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/9e/c53200e6/Transform.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/ChangeScreen.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <marker date="1521118479524" expanded="true" signature="6:131" ph="..." />
-            <marker date="1521118479524" expanded="true" signature="172:2819" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="762:898" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="951:1253" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1092:1246" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1148:1214" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1278:1765" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1794:2027" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="1820:2024" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2045:2074" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2093:2121" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2140:2168" ph="{...}" />
-            <marker date="1521118479524" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scene_001.unity">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="1284" column="21" lean-forward="false" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
+        <state relative-caret-position="14399">
+          <caret line="847" column="0" lean-forward="false" selection-start-line="847" selection-start-column="0" selection-end-line="847" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChat.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+        <state relative-caret-position="306">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
-            <marker date="1521117303177" expanded="false" signature="6:149" ph="..." />
-            <marker date="1521117303177" expanded="true" signature="231:1858" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="396:491" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="525:1624" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="557:658" ph="{...}" />
-            <marker date="1521117303177" expanded="true" signature="1667:1856" ph="{...}" />
+            <marker date="1521122677457" expanded="false" signature="6:131" ph="..." />
+            <marker date="1521122677457" expanded="true" signature="172:2819" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="762:898" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="951:1253" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1092:1246" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1148:1214" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1278:1765" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1794:2027" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2045:2074" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2093:2121" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2140:2168" ph="{...}" />
+            <marker date="1521122677457" expanded="true" signature="2170:2817" ph="/* private void ReadChat() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LineCreator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <marker date="1521122897730" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521122897730" expanded="true" signature="120:1127" ph="{...}" />
+            <marker date="1521122897730" expanded="true" signature="307:368" ph="{...}" />
+            <marker date="1521122897730" expanded="true" signature="388:1125" ph="{...}" />
+            <marker date="1521122897730" expanded="true" signature="429:846" ph="{...}" />
+            <marker date="1521122897730" expanded="true" signature="886:937" ph="{...}" />
+            <marker date="1521122897730" expanded="true" signature="970:1119" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChangeScreen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
-            <marker date="1521114050399" expanded="false" signature="6:110" ph="..." />
-            <marker date="1521114050399" expanded="true" signature="175:593" ph="{...}" />
-            <marker date="1521114050399" expanded="true" signature="289:411" ph="{...}" />
-            <marker date="1521114050399" expanded="true" signature="468:591" ph="{...}" />
+            <marker date="1521129843482" expanded="false" signature="6:110" ph="..." />
+            <marker date="1521129843482" expanded="true" signature="175:691" ph="{...}" />
+            <marker date="1521129843482" expanded="true" signature="316:474" ph="{...}" />
+            <marker date="1521129843482" expanded="true" signature="531:689" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChatIntegration/TwitchChatUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <marker date="1521132117856" expanded="false" signature="6:149" ph="..." />
+            <marker date="1521132117856" expanded="true" signature="231:1856" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="396:491" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="525:1622" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="557:658" ph="{...}" />
+            <marker date="1521132117856" expanded="true" signature="1665:1854" ph="{...}" />
           </folding>
         </state>
       </provider>
