@@ -6,8 +6,9 @@ public class GameLoop : MonoBehaviour
 	public Text TimerText, WordText;
 	public GameObject RankingPanel;
 	public Text FirstText, SecondText, ThirdText;
+    public GameObject lineCreator;
 
-	private float _startTime;
+    private float _startTime;
 	private bool _gameState;
 	private float _timeGame;
 	private readonly string[] _wordStrings = { "maison", "fleur", "chaise", "argent", "fraise"};
@@ -38,7 +39,8 @@ public class GameLoop : MonoBehaviour
 	{
 		if (!(timeLeft <= 0))
 			return;
-		_gameState = true;
+        lineCreator.GetComponent<LineCreator>().RemoveAllLines();
+        _gameState = true;
 		_timeGame = 60f;
 		_startTime = Time.time;
 		RankingPanel.gameObject.SetActive(false);
