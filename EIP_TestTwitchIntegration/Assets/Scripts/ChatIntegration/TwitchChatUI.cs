@@ -8,25 +8,26 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof(TwitchChat))]
 public class TwitchChatUI : MonoBehaviour
 {
+	public Image Canvas;
+	public Text ResponsText, FirstText, SecondText, ThirdText;
+	private const int Max = 20;
 
-	public Image canvas;
-	private int max = 20;
-	private TwitchChat IRC;
-	private LinkedList<GameObject> messages =
+	private TwitchChat _irc;
+	private readonly LinkedList<GameObject> _messages =
 		new LinkedList<GameObject>();
 
 	void Start () {
-		IRC = GetComponent<TwitchChat>();
-		IRC.messageRecievedEvent.AddListener(OnMsgRecieved);
+		_irc = GetComponent<TwitchChat>();
+		_irc.MessageRecievedEvent.AddListener(OnMsgRecieved);
 	}
 	
 	void OnMsgRecieved(string msg)
 	{
-		if (messages.Count >= max)
+		if (_messages.Count >= Max)
 		{
 			print("Debug msg : " + msg);
-			Destroy(messages.First.Value);
-			messages.RemoveFirst();
+			Destroy(_messages.First.Value);
+			_messages.RemoveFirst();
 		}
 
 		var splitPoint = msg.IndexOf("!", 1, StringComparison.Ordinal);
@@ -45,15 +46,27 @@ public class TwitchChatUI : MonoBehaviour
 		GameObject go = new GameObject("TwitchMsg");
 		var text = go.AddComponent<Text>();
 		var layout = go.AddComponent<LayoutElement>();
-		go.transform.SetParent(canvas.transform);
-		messages.AddLast(go);
+		go.transform.SetParent(Canvas.transform);
+		_messages.AddLast(go);
 		layout.minHeight = 7f;
 		layout.minWidth = 7f;
 
 		// Set text
 		text.text = "<color=" + nameColor + "><b>" + chatName + "</b></color>" + ": " + msg;
 		text.color = Color.black;
-		text.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;		
+		text.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
+
+		if (msg.ToLower().Equals(ResponsText.text))
+		{
+			if (FirstText.text == "")
+				FirstText.text = chatName;
+			else if (SecondText.text == "")
+				SecondText.text = chatName;
+			else if (ThirdText.text == "")
+				ThirdText.text = chatName;
+			else
+				return;
+		}
 	}
 
 	Color ColorFromUsername(string username)

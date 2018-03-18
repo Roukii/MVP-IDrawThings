@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 224517251814557842}
   - component: {fileID: 222984653950384206}
   - component: {fileID: 114130738331763518}
-  - component: {fileID: 114961373646640674}
   m_Layer: 5
   m_Name: Paint Yellow
   m_TagString: Untagged
@@ -55,17 +54,6 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &114961373646640674
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1543469600389256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &222984653950384206
 CanvasRenderer:
   m_ObjectHideFlags: 1

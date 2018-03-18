@@ -2,26 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Experimental.UIElements;
 
 public class ChangeScreen : MonoBehaviour, IPointerClickHandler
 {
-	public Canvas connexion, chat;
-	public GameObject twitchChat;
-	public LineCreator line;
+	public Canvas ConnexionUi, GameUi;
+	public GameObject TwitchChatUi, TwitchChat, GameLoop;
+	public LineCreator LineCreator;
 	
 	// Use this for initialization
 	void Start () {
-		connexion.gameObject.SetActive(true);
-		chat.gameObject.SetActive(false);
-		twitchChat.gameObject.SetActive(false);
-		line.gameObject.SetActive(false);
+		ConnexionUi.gameObject.SetActive(true);
+		GameUi.gameObject.SetActive(false);
+		TwitchChatUi.gameObject.SetActive(false);
+		LineCreator.gameObject.SetActive(false);
+		TwitchChat.gameObject.SetActive(false);
+		GameLoop.gameObject.SetActive(false);
 	}
 
 	public void OnPointerClick(PointerEventData eventData)
 	{
-		twitchChat.gameObject.SetActive(true);
-		connexion.gameObject.SetActive(false);
-		chat.gameObject.SetActive(true);
-		line.gameObject.SetActive(true);
+		TwitchChatUi.gameObject.SetActive(true);
+		ConnexionUi.gameObject.SetActive(false);
+		GameUi.gameObject.SetActive(true);
+		LineCreator.gameObject.SetActive(true);
+		TwitchChat.gameObject.SetActive(true);
+		GameLoop.gameObject.SetActive(true);
 	}
 }

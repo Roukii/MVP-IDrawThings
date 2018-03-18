@@ -10,23 +10,21 @@ public class TwitchChat : MonoBehaviour
 	private TcpClient _twitchClient;
 	private StreamReader _reader;
 	private StreamWriter _writer;
+	
+	private string _str = string.Empty;
+	private bool _stopThreads = false;
+//	private Queue<string> _commandQueue = new Queue<string>();
+	private readonly List<string> _recievedMsgs = new List<string>();
+	private System.Threading.Thread _inProc;
 
 	//public string username, oauth, channelName;
-	public Text username, oauth, channelName;
+	public Text Username, Oauth, ChannelName;
 	public class MsgEvent : UnityEngine.Events.UnityEvent<string> { }
-	public MsgEvent messageRecievedEvent = new MsgEvent();
-
-	private string str = string.Empty;
-	private bool stopThreads = false;
-	private Queue<string> commandQueue = new Queue<string>();
-	private List<string> recievedMsgs = new List<string>();
-	private System.Threading.Thread inProc;
+	public MsgEvent MessageRecievedEvent = new MsgEvent();
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log("Start twitch chat");
-
-		Debug.Log("here : " + username.text + " " + oauth.text + " " + channelName.text);
+		Debug.Log("here : " + Username.text + " " + Oauth.text + " " + ChannelName.text);
 		Connect();
 	}
 	
@@ -36,15 +34,15 @@ public class TwitchChat : MonoBehaviour
 		if (_twitchClient == null || !_twitchClient.Connected)
 			Connect();
 		else
-			lock (recievedMsgs)
+			lock (_recievedMsgs)
 			{
-				if (recievedMsgs.Count > 0)
+				if (_recievedMsgs.Count > 0)
 				{
-					for (int i = 0; i < recievedMsgs.Count; i++)
+					for (int i = 0; i < _recievedMsgs.Count; i++)
 					{
-						messageRecievedEvent.Invoke(recievedMsgs[i]);
+						MessageRecievedEvent.Invoke(_recievedMsgs[i]);
 					}
-					recievedMsgs.Clear();
+					_recievedMsgs.Clear();
 			}
 		}
 	}
@@ -55,68 +53,43 @@ public class TwitchChat : MonoBehaviour
 		_reader = new StreamReader(_twitchClient.GetStream());
 		_writer = new StreamWriter(_twitchClient.GetStream());
 		
-		_writer.WriteLine("PASS " + oauth.text);
-		_writer.WriteLine("NICK " + username.text);
-		_writer.WriteLine("USER " + username.text + " 8 * :" + username.text);
-		_writer.WriteLine("JOIN #" + channelName.text);
+		_writer.WriteLine("PASS " + Oauth.text);
+		_writer.WriteLine("NICK " + Username.text);
+		_writer.WriteLine("USER " + Username.text + " 8 * :" + Username.text);
+		_writer.WriteLine("JOIN #" + ChannelName.text);
 		_writer.Flush();
 
-		inProc = new System.Threading.Thread(GetIRCInput);
-		inProc.Start();
+		_inProc = new System.Threading.Thread(GetIrcInput);
+		_inProc.Start();
 	}
 
-	private void GetIRCInput()
+	private void GetIrcInput()
 	{
-		while (!stopThreads)
+		while (!_stopThreads)
 		{
 			if (!_twitchClient.GetStream().DataAvailable)
 				continue ;
 			
-			str = _reader.ReadLine();
+			_str = _reader.ReadLine();
 			
-			if (!str.Contains("PRIVMSG #")) continue;
-			lock (recievedMsgs)
-				recievedMsgs.Add(str);
+			if (_str != null && !_str.Contains("PRIVMSG #")) continue;
+			lock (_recievedMsgs)
+				_recievedMsgs.Add(_str);
 		}
 	}
 
 	void OnEnable()
 	{
-		stopThreads = false;
+		_stopThreads = false;
 	}
 
 	void OnDisable()
 	{
-		stopThreads = true;
+		_stopThreads = true;
 	}
 
 	void OnDestroy()
 	{
-		stopThreads = true;
+		_stopThreads = true;
 	}
-
-/*
-	private void ReadChat()
-	{
-		if (_twitchClient.Available > 0)
-		{
-			var msg = _reader.ReadLine();
-
-			if (msg.Contains("PRIVMSG"))
-			{
-				// GET USERS NAME
-				var splitPoint = msg.IndexOf("!", 1, StringComparison.Ordinal);
-				var chatName = msg.Substring(0, splitPoint);
-				chatName = chatName.Substring(1);
-				
-				// Get users messages by splitting it from string
-				splitPoint = msg.IndexOf(":", 1, StringComparison.Ordinal);
-				msg = msg.Substring(splitPoint + 1);
-				print(String.Format("{0}: {1}", chatName, msg));
-				chatBox.text = chatBox.text + "\n" + String.Format("{0}: {1}", chatName, msg);
-			}
-			print(msg);
-		}
-	}
-*/
 }

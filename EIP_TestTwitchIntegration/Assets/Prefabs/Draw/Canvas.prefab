@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 224043982533482244}
   - component: {fileID: 222010903312515726}
   - component: {fileID: 114788762007868792}
-  - component: {fileID: 114105887009700548}
   m_Layer: 5
   m_Name: Eraser
   m_TagString: Untagged
@@ -57,7 +56,6 @@ GameObject:
   - component: {fileID: 224936268199494050}
   - component: {fileID: 222997139433175524}
   - component: {fileID: 114382240350769292}
-  - component: {fileID: 114956294127639530}
   m_Layer: 5
   m_Name: TinyPencil
   m_TagString: Untagged
@@ -75,7 +73,6 @@ GameObject:
   - component: {fileID: 224908580477438710}
   - component: {fileID: 222920654328312070}
   - component: {fileID: 114009142848027648}
-  - component: {fileID: 114561616637107510}
   m_Layer: 5
   m_Name: BigPencil 1
   m_TagString: Untagged
@@ -93,7 +90,6 @@ GameObject:
   - component: {fileID: 224338425097190550}
   - component: {fileID: 222985065353482934}
   - component: {fileID: 114427655679649772}
-  - component: {fileID: 114061756944749590}
   m_Layer: 5
   m_Name: NormalPencil
   m_TagString: Untagged
@@ -111,7 +107,6 @@ GameObject:
   - component: {fileID: 224836368634080812}
   - component: {fileID: 222687169353116550}
   - component: {fileID: 114647234164350020}
-  - component: {fileID: 114243150470277736}
   m_Layer: 5
   m_Name: Paint Black
   m_TagString: Untagged
@@ -228,39 +223,6 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &114061756944749590
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450182501736746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114105887009700548
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1062869287767634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114243150470277736
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1465705627673512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114259060639539188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -351,17 +313,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114561616637107510
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1246820262460164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114564013175238076
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -576,17 +527,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114956294127639530
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1111871323966714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &222010903312515726
 CanvasRenderer:
   m_ObjectHideFlags: 1
